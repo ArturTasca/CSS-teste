@@ -1,0 +1,50 @@
+
+
+* {
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 5px;
+}
+
+form, input {
+    border: 3px solid red;
+    width: 50%;
+}
+
+#item2 {
+    --display: none;
+}
+
+#item3 {
+    --visibility: hidden;
+}
+
+li {
+    --display: inline;
+}
+
+.container {
+    border: 3px solid green;
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+.box {
+    border: 1px solid blue;
+    display: inline;
+}
+
+.primeiro {
+    position: relative;    
+}
+
+h2 {
+    height: 30px;
+    margin: 30px;
+    width: 50%;
+}
+
+li {
+    border-style: none;
+}
